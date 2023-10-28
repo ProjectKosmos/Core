@@ -1,0 +1,3 @@
+# Project Kosmos / Core
+
+A whole new world...

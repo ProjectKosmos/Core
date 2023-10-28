@@ -1,0 +1,17 @@
+{
+  "name": "kosmos",
+  "version": "0.0.0",
+  "description": "A whole new world...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectKosmos/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ProjectKosmos/core/issues"
+  },
+  "homepage": "https://github.com/ProjectKosmos/core#readme"
+}
