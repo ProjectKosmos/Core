@@ -1,17 +1,22 @@
 {
-  "name": "kosmos",
+  "name": "core",
   "version": "0.0.0",
   "description": "A whole new world...",
-  "main": "index.js",
+  "main": "build/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ProjectKosmos/core.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ProjectKosmos/core/issues"
-  },
-  "homepage": "https://github.com/ProjectKosmos/core#readme"
+  "devDependencies": {
+    "@types/node": "20.8.2",
+    "gts": "^5.2.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.0"
+  }
 }
